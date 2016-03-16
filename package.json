@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-kwan-fix",
-  "version": "0.0.4",
+  "version": "0.1.2",
   "description": "Kwan theme for jsonresume. Other resumes may have the coin, but they won't have the 'Kwan'.",
   "main": "index.js",
   "repository": {

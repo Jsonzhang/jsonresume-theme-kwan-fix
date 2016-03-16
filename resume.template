@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link href='//fonts.useso.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.useso.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
     <style>
       {{{css}}}
     </style>
@@ -117,6 +117,7 @@
                     </p>
                     <p>{{summary}}</p>
                     {{#if highlights}}
+                      <h4>有趣的事情</h4>
                       <ul>
                         {{#each highlights}}
                           <li> {{.}} </li>
@@ -272,11 +273,11 @@
 
             {{#if resume.languages}}
             <h4 id="languages"><span class="fa fa-lg fa-language"></span> <span class="title">Languages</span> </h4>
-            <p class="card-nested">
+            <ul class="list-unstyled card-nested">
               {{#each resume.languages}}
-                <span class="enumeration">
-                  <strong>{{language}}</strong> ({{fluency}})
-                </span>
+                <li class="space-top labels">
+                    <strong class="">{{language}} ({{fluency}})</strong> 
+                </li>
               {{/each}}
             </ul>
             {{/if}}
