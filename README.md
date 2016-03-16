@@ -11,8 +11,8 @@ Other resumes may have the coin, but they won't have the 'Kwan'.
 To develop iteratively (either to modify the template, CSS or resume contents) to the following
 
 ```
-$ git clone https://github.com/mudassir0909/jsonresume-theme-elegant.git
-$ cd jsonresume-theme-elegant
+$ git clone https://github.com/Jsonzhang/jsonresume-theme-kwan-fix
+$ cd jsonresume-theme-kwan-fix
 $ npm install
 $ grunt watch // watches for less file changes
 $ ./serve.js [optional_resume_filename] // Do this in a separate terminal to run the server with the provided resume or a default one
