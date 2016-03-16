@@ -12,7 +12,7 @@ var theme = require("./index.js");
 var fs = require('fs');
 var args = require('optimist').argv;
 
-var port = 8888;
+var port = 8890;
 http.createServer(function(req, res) {
     res.writeHead(200, {
         "Content-Type": "text/html"
@@ -20,7 +20,7 @@ http.createServer(function(req, res) {
     res.end(render());
 }).listen(port);
 
-console.log("Preview: http://localhost:8888/");
+console.log("Preview: http://localhost:8890/");
 console.log("Serving..");
 
 function render() {

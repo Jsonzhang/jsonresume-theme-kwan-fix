@@ -16,6 +16,7 @@
 .labels {
   word-spacing: 5px;
   line-height: 2;
+  padding-left: 20px;
 }
 .label-keyword {
   display: inline-block;
@@ -346,9 +347,6 @@ h4 > .fa {
   margin-left: 20px;
 }
 @media only screen and (min-width: 768px) {
-  .skill {
-    border-left: 9px solid #555555;
-  }
   .skill.beginner {
     height: 50%;
     border-color: #e74c3c;

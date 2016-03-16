@@ -18,5 +18,5 @@ $ grunt watch // watches for less file changes
 $ ./serve.js [optional_resume_filename] // Do this in a separate terminal to run the server with the provided resume or a default one
 ```
 
-Visit [http://localhost:8888](http://localhost:8888) to see the theme in action.
+Visit [http://localhost:8890](http://localhost:8890) to see the theme in action.
 

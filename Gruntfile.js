@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         },
         exec: {
             run_server: {
-                cmd: "node serve.js"
+                cmd: "node serve.js ./resume.json"
             }
         }
     });

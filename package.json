@@ -1,20 +1,20 @@
 {
-  "name": "jsonresume-theme-kwan",
-  "version": "0.0.1",
+  "name": "jsonresume-theme-kwan-fix",
+  "version": "0.0.4",
   "description": "Kwan theme for jsonresume. Other resumes may have the coin, but they won't have the 'Kwan'.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/icoloma/jsonresume-theme-kwan.git"
+    "url": "https://github.com/Jsonzhang/jsonresume-theme-kwan-fix.git"
   },
   "keywords": [
     "jsonresume",
     "theme",
     "kwan"
   ],
-  "author": "Nacho Coloma <icoloma@gmail.com>",
+  "author": "Jsonzhang <enjoy.doing.19@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/icoloma/jsonresume-theme-kwan",
+  "homepage": "https://github.com/Jsonzhang/jsonresume-theme-kwan-fix",
   "dependencies": {
     "gravatar": "^1.0.6",
     "handlebars": "^2.0.0-alpha.4",
